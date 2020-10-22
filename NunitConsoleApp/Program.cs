@@ -1,9 +1,5 @@
 ﻿using MyClassLibrary;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using NUnit.Framework;
 
 namespace NunitConsoleApp
 {
@@ -15,6 +11,7 @@ namespace NunitConsoleApp
             MyClass.Tetrate(1d, 2);
             var test = new MyClassTests();
             test.TetrationTests(1d, 2, 1d);
+            Assert.AreEqual(1, 2);
         }
     }
 }
