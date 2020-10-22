@@ -8,6 +8,10 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyClassLibraryTests", "MyClassLibraryTests\MyClassLibraryTests.csproj", "{53CA8D2B-4A94-474F-9828-2A9899D605A5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NunitConsoleApp", "NunitConsoleApp\NunitConsoleApp.csproj", "{676DF9CA-7EFF-4C0B-9560-39E40F2CC693}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6CCDA800-CCC7-4102-B72B-77BE6DFEFE8A} = {6CCDA800-CCC7-4102-B72B-77BE6DFEFE8A}
+		{53CA8D2B-4A94-474F-9828-2A9899D605A5} = {53CA8D2B-4A94-474F-9828-2A9899D605A5}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MyClassLibrary;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,10 @@ namespace NunitConsoleApp
     {
         static void Main(string[] args)
         {
+
+            MyClass.Tetrate(1d, 2);
+            var test = new MyClassTests();
+            test.TetrationTests(1d, 2, 1d);
         }
     }
 }
